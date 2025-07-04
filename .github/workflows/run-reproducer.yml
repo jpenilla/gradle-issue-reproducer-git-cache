@@ -22,4 +22,5 @@ jobs:
         build-scan-terms-of-use-agree: "yes"
 
     - name: Run build # change the command below to whatever you need to reproduce the issue
+      shell: bash
       run: ./reproducer.sh
